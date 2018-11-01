@@ -1,0 +1,2 @@
+como fazer merda no seu git repository
+não crie submodulos
