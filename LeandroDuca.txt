@@ -1,2 +1,24 @@
 como fazer merda no seu git repository
 não crie submodulos
+
+Inicialmente tive que remover o modulo chamado EDR
+entrei na pasta scr usando gitbach
+
+../scr/ 
+
+depois usei esses dois comandos
+
+git submodule deinit <path_to_submodule> (coloquei o nome do submodulo chamado EDR)
+git rm <path_to_submodule> (nesse comando coloquei o nome mas deu erro e segui para o proximo comando)
+git commit-m "Removed submodule "  (fiz o commit removendo o modulo)
+
+rm -rf .git/modules/<path_to_submodule>
+
+--- 
+
+depois removi a branch que eu tinha criado com o nome de ld_Inicial
+
+git branch -d "ld_inicial"   (removi localmente)
+
+
+ git push origin --delete ld_Inicial  (removi remotamente)
