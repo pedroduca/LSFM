@@ -9,6 +9,6 @@ package TelasSistema;
  *
  * @author richardvepo
  */
-public class CLeison {
+public class Cleison {
     
 }
