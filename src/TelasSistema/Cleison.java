@@ -10,5 +10,25 @@ package TelasSistema;
  * @author richardvepo
  */
 public class Cleison {
+
+       private int lixo;
+       private int gordo;
+       private int fidido;
+       private int Lindao;
+       private int gatao;
+        
+    public Cleison() {
+       }
+    
+    public static void  FazPao() {
+        
+        
+    }
+    
+    public static void  AssistirAnime() {
+        
+        
+    }
+    
     
 }
